@@ -4,11 +4,11 @@
 .carousel-caption{
     text-align: start;
     height: 400px;
-    width: 500px;
+    width: 400px;
 }
 .carousel-caption p{
     font-size: 50px;
-    color: rgb(236, 136, 41);
+    /* color: rgb(236, 136, 41); */
 }
 .item{
     display: flex;
