@@ -1,0 +1,35 @@
+.carousel img{
+    height: 600px;
+}
+.carousel-caption{
+    text-align: start;
+    height: 400px;
+    width: 500px;
+}
+.carousel-caption p{
+    font-size: 50px;
+    color: rgb(236, 136, 41);
+}
+.item{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.row1{
+    flex-direction: row-reverse;
+}
+.footer-end{
+    height: 20px;
+}
+
+@media (min-width:320px) and (max-width:740px){
+    .item{
+        flex-wrap: wrap;
+
+        text-align: center;
+    }
+    .col-md-4 i{
+        margin-right: 140px;
+    }
+}
